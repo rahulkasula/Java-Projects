@@ -1,0 +1,299 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 12, 2015, 12:26:48 AM
+    Author     : sourabh
+*/
+@font-face 
+		{
+			font-family: myFirstFont;
+			src: url(..//fonts/font.ttf);			
+		}
+@font-face 
+		{
+		font-family: myFooterFont;
+		src: url(..//fonts/Footer.ttf);
+		}	
+@font-face
+		{
+		font-family: mainFont;
+		src: url(..//fonts/linux.ttf);
+		}
+		#error
+                {
+                    position: absolute;
+                    color:#990000;
+                    padding-top:7%;
+                    padding-left:20%;
+                    font-family: myFirstFont;
+                    font-size: 0.6cm;
+                }
+		/** main block **/
+		#mainContainer
+		{
+			position:absolute;
+			display:inline-block;
+			background-color:none;
+			height:80%;
+			width:80%;
+			top:15%;
+			left:20%;
+			color:white;
+			font-family:mainFont;
+			background:rgba(0,0,0,0.5);
+		}
+		#mainContainer table
+		{
+			color:white;
+			padding-top:10%;
+			padding-bottom:10px;
+			padding-left:20%;
+			border-spacing: 10px 20px;
+			
+		}
+		#mainContainer a
+		{
+			color:red;
+		}
+		#mainContainer_signup li
+		{
+			display:inline;
+			padding-left:5%;
+			
+		}
+		#mainContainer_signup li:hover
+		{
+			color:red;
+		}
+		#mainContainer_signup
+		{
+			position:absolute;
+			display:inline-block;
+			background-color:none;
+			height:85%;
+			width:80%;
+			top:15%;
+			left:20%;
+			color:white;
+			font-family:mainFont;
+			background:rgba(0,0,0,0.5);
+		}
+		#mainContainer_signup table
+		{
+			color:white;
+			padding-top:2%;
+			padding-bottom:5px;
+			padding-left:20%;
+			border-spacing: 10px 20px;
+		}
+		#mainContainer_signup table
+		{
+			display:block;
+		}
+		
+		/** textbox styling **/
+		.textbox
+		{
+			height:30px;
+			width:200px;
+			border-radius: 5px;
+			box-shadow: 3px 3px 5px #000000;
+		}
+		
+		hr
+		{
+			display:block;
+			color:#686868;
+		}
+		#text
+		{
+			font-family:myFooterFont;
+			padding-left:47px;
+			padding-top:6px;
+			font-size: 0.6cm;
+		}
+		#menu_show
+		{
+			position:relative;
+			background-image:url(..//images/showMenu.jpg);
+			background-repeat: no-repeat;
+			display:block;
+			top:80.5px;
+			color: white;
+			left: 40px;
+			width: 150px;
+			height: 60px;
+			cursor:pointer;
+				
+		}
+		
+		#btn
+		{
+			position:relative;
+			height:60px;
+		}
+		#side_navigation
+		{
+			position:relative;
+			display:none;
+			top:60px;
+			color: white;
+			left: 40px;
+			font-family: mainFont;
+			background-color:#000000;
+			width: 250px;
+			height: 650px;
+			background:rgba(0,0,0,0.7);
+			border: 1px solid black;
+			border-radius: 25px;
+		}
+		#side_navigation ul
+		{
+			position:relative;
+			left:-40px;
+			float:left;
+			width:100%;
+			
+			list-style-type: none;
+			font-size:1.4em;
+			
+			 
+		}
+		#side_navigation li
+		{
+			padding-top: 1cm;
+			cursor:pointer;
+		}
+
+		body
+		{
+		background:url(..//images/mountain.jpg);
+		 background-size: 100% 100%; 
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		}
+		
+		/** header styling **/
+		#header
+		{
+			position:absolute; 
+			display:table;
+			background-color:#000000;
+			width:100%;
+			right:0%;
+			top:0%;
+			height:80px; 
+			color:white;
+			font-family: myFirstFont;
+			font-size:1.5em;	
+			border-bottom: thin solid grey;
+			opacity:1;
+			
+		}
+		#logo
+		{
+			display:inline;
+			position:relative;
+			left:80px;
+			top:8px;
+		}
+		#header_nav
+		{
+		position:absolute;
+		background-color:black;
+		top:0%;
+		display:inline;
+		left:80%;
+		font-family: myFirstFont;
+		font-size:1.3em;
+		
+		}
+		#header_nav li
+		{
+			display:inline;
+			padding-right: 20px;
+		}
+		#footer
+		{
+			position:fixed;
+			top:95%;
+			color:red;
+			left:93%;
+			color:white;
+			font-family: myFooterFont;
+		}
+		
+		a
+		{ color:white;
+		}
+		header_nav li:hover{background-color:black;
+				color:red;}
+		a:link {
+					text-decoration: none;
+				}
+
+		a:visited {
+					text-decoration: none;
+				}
+
+		a:hover {
+					text-decoration: none;
+					color:red;
+				}
+
+		a:active {
+					text-decoration: none;
+				}
+		.color{color:red;}
+		/** scrollbar styling **/
+		body::-webkit-scrollbar {
+		width: 1em;
+						}
+		 
+		body::-webkit-scrollbar-track {
+			-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+		}
+		 
+		body::-webkit-scrollbar-thumb {
+		  background-color: black;
+		  outline: 1px solid black;
+                }
+                  
+                  
+/*
+profile evaluation                   
+*/
+#mainContainer_profile_evaluation_form {
+  position: absolute;
+  display: inline-block;
+  background-color: none;
+  height: 80%;
+  width: 80%;
+  top: 15%;
+  left: 20%;
+  color: white;
+  font-family: mainFont;
+  background: rgba(0,0,0,0.5);
+  padding: 15px;  
+  overflow: auto;
+}
+
+/*
+Trainings                   
+*/
+#mainContainer_training_view {
+  position: absolute;
+  display: inline-block;
+  background-color: none;
+  height: 80%;
+  width: 80%;
+  top: 15%;
+  left: 20%;
+  font-family: mainFont;
+  background: rgba(0,0,0,0.5);
+  padding: 15px;  
+  overflow: auto;
+}

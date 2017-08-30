@@ -1,0 +1,15 @@
+SMAP
+trainings_005flist_jsp.java
+JSP
+*S JSP
+*F
++ 0 trainings_list.jsp
+trainings_list.jsp
+*L
+5,73:57
+77:167,11
+78:178
+78:207,5
+78,2:181
+79,17:132
+*E

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:textAlignment="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Appliance"
+        android:id="@+id/textView6"
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="center" />
+
+    <TextView
+        android:layout_width="253dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="       Appliance Name"
+        android:id="@+id/textView8"
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="center" />
+
+    <EditText
+        android:layout_width="265dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/appliance" />
+
+    <TextView
+        android:layout_width="272dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="      Power Consumption"
+        android:id="@+id/textView9"
+        android:layout_gravity="center_horizontal" />
+
+    <EditText
+        android:layout_width="275dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText2"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/powerConsumed" />
+
+    <TextView
+        android:layout_width="222dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="    Start Time"
+        android:id="@+id/textView10"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center_horizontal" />
+
+    <EditText
+        android:layout_width="279dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText3"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/StartTime" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="    End Time"
+        android:id="@+id/textView11"
+        android:layout_gravity="center_horizontal" />
+
+    <EditText
+        android:layout_width="258dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText4"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/EndTime" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Choose Appliance"
+        android:id="@+id/textView7"
+        android:gravity="center_horizontal" />
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner2"
+        android:clickable="true"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Add"
+        android:id="@+id/button5"
+        android:onClick="userReg"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/UpdateAppliance"
+        android:onClick="userUpdate"
+        android:id="@+id/button6"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Delete"
+        android:onClick="userDelete"
+        android:id="@+id/button7"
+        android:layout_gravity="center_horizontal" />
+</LinearLayout>

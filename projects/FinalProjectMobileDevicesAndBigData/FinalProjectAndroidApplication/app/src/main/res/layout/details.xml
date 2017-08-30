@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="148dp"
+        android:layout_height="wrap_content"
+        android:text="@string/HelloUser"
+        android:id="@+id/textView"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:layout_width="218dp"
+        android:layout_height="wrap_content"
+        android:text="@string/ViewAppliance"
+        android:onClick="ViewAppliance"
+        android:id="@+id/button"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:layout_width="217dp"
+        android:layout_height="wrap_content"
+        android:text="@string/ManageAppliance"
+        android:id="@+id/button2"
+        android:onClick="ManageAppliance"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:layout_width="221dp"
+        android:layout_height="wrap_content"
+        android:text="@string/ManageSchedule"
+        android:id="@+id/button3"
+        android:layout_gravity="center_horizontal"
+        android:clickable="true"
+        android:onClick="ManageSchedule" />
+
+    <Button
+        android:layout_width="223dp"
+        android:layout_height="wrap_content"
+        android:text="@string/ViewSchedule"
+        android:onClick="ViewSchedule"
+        android:id="@+id/button4"
+        android:layout_gravity="center_horizontal" />
+</LinearLayout>
