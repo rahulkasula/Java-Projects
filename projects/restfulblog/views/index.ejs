@@ -1,0 +1,48 @@
+
+<%include ./partials/header %>
+
+<div class="ui main text container"> Index Page 
+
+<div class="ui huge header">Restful blog app</div>
+
+<div class="ui divided centered items">
+    
+    <% blogs.forEach(function(blog){          %>
+    <div class="item">
+    <div class=" image">
+    <img  src="<%=blog.image%>"  >.
+    </div>
+  <div class="block">
+    <div class="header">
+        <h3><%=blog.title%></h3>
+    </div>
+        
+    <div>
+     <p ><%=blog.body.substring(0,70)%>....
+     <a class="floated violet basic button ui" href="/blogs/<%= blog._id%>">read more
+     <i class="right chevron icon">
+         
+     </i>
+     
+     </a>
+     </p>   
+    </div>
+    </div>
+    </div>
+
+
+<% }); %>
+    
+</div>    
+    
+    
+    
+    
+</div>
+
+
+
+
+</div>
+<%include ./partials/footer %>
+

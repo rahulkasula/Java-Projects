@@ -1,0 +1,38 @@
+<%  include ./partials/header %>
+
+
+<div class="ui main text container segment">
+    <div class="item">
+    <div class="ui huge header">
+     new blog page        
+    </div>
+    <h1><%=blog.title%></h1>
+
+        <img class=" centered rounded image ui Big" src="<%=blog.image%>"  >
+    <div>
+     <p class="description"><%=blog.body%></p>   
+    </div>
+    
+    <div style="text-align:center">  
+   <form action="/blogs/<%=blog._id%>?_method=DELETE" method="POST">
+    <input class="inverted red button ui" type="submit" value="Delete">
+    <!--<i class="right  chevron icon">-->
+    </i>
+   </form>
+   
+   
+   <a class="inverted blue button ui" href="/blogs/<%=blog._id%>/edit">Edit</a>
+   <!--<form action="/blogs/<%=blog._id%>/edit?_method=UPDATE" method="POST">-->
+   <!-- <input type="submit" value="EDIT">-->
+   <!--</form>-->
+  </div>
+  
+    
+    
+    </div>
+</div>
+
+
+
+
+<%  include ./partials/footer %>
